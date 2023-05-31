@@ -11,7 +11,7 @@
         <li>Produtos</li>
     </ul>
 
-    <ul id="listatime"></ul>
+    <ul class="listatime"></ul>
 
 </body>
 <script>
@@ -29,7 +29,13 @@
 
     var listadetimes = document.querySelector('ul.listatime')
     
-    for(var)
+    for(var i = 0; i < times.length; i++){
+        var time = times[i];
+        var listItem = document.createElement('li')
+        listItem.innerText = time;
+        listItem.style.border = '1px solid blue'
+        listadetimes.appendChild(listItem);
+    }
 
 </script>
 </html>

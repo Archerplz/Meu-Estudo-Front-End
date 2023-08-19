@@ -6,7 +6,7 @@ const resultado = primeiroNumero * segundoNumero;
 const resultadoDuplicado = resultado * 2;
 let resultadoTriplicado = resultado * 3;
 resultadoTriplicado = resultadoTriplicado + 5;
-console.log(typeof(primeiroNumero + segundoNumero))
+console.log(typeof (primeiroNumero + segundoNumero))
 
 /*
 *   Não pode começar o nome de uma constante com número
